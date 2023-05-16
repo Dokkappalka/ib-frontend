@@ -1,0 +1,54 @@
+.codeTitle {
+    @apply text-center font-semibold flex items-center justify-center
+}
+
+.helpButton {
+    @apply ml-3 rounded-full border flex items-center justify-center h-5 w-5 text-xs mt-1 bg-green-200 text-gray-500 hover:bg-green-500 duration-200
+}
+
+.input {
+    @apply border rounded p-1 w-[450px] bg-gray-100 h-[35px] mr-5
+}
+
+.form {
+    @apply flex items-center justify-center mt-5 
+}
+
+.button {
+    @apply border py-1 px-3 rounded bg-sky-400 text-white h-[35px]
+}
+
+
+.resContainer {
+    @apply overflow-y-scroll border shadow-lg w-[550px] rounded bg-gray-100
+}
+
+.container {
+    @apply mt-10 mx-5 flex justify-between h-[450px]
+}
+
+.infoContainer {
+    @apply border text-center min-w-[550px] shadow-md rounded bg-gray-100
+}
+
+.resContainer::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.resContainer::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.resContainer::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.resElement {
+    @apply border rounded mt-2 w-[500px] flex justify-center items-center ml-[25px]  bg-gray-100 border-black hover:bg-sky-200 duration-200 cursor-pointer
+}
